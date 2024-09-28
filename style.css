@@ -1,0 +1,83 @@
+/* Projects Section */
+.projects-section {
+    background-color: #000;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.projects-section .container {
+    max-width: 1140px; /* Align with Bootstrap container width */
+}
+
+.projects-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust gap as needed */
+    justify-content: center; /* Center align the cards */
+}
+
+.project-card {
+    flex: 1 1 calc(33.333% - 1rem); /* Adjust percentage and gap as needed */
+    min-width: 280px; /* Minimum width for cards to ensure proper alignment */
+    background-color: #222;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px #00000080;
+}
+
+.project-card .card-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Education Section */
+.education-section {
+    background-color: #000;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.education-section .container {
+    max-width: 1140px; /* Align with Bootstrap container width */
+}
+
+.education-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust gap as needed */
+    justify-content: center; /* Center align the cards */
+}
+
+.education-card {
+    flex: 1 1 calc(33.333% - 1rem); /* Adjust percentage and gap as needed */
+    min-width: 280px; /* Minimum width for cards to ensure proper alignment */
+    background-color: #222;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.education-card .card-body {
+    padding: 2rem;
+    text-align: center;
+}
+
+.education-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
